@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Anupam portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a0840bab9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <p>CS Undergraduate Student</p>
+                <h1>Hi! I am <span>Aayush Anupam</span>, a third year bachelor student from IIT Mandi in the Computer
+                    Science Department.</h1>
+            </div>
+        </div>
+    </div> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/another.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">Aayush Anupam</h1>
+                    <p>Hi, I am a third year bachelor computer science student from IIT Mandi and also an upcoming
+                        semester
+                        exchange student to TU Munich, Germany. I am very passionate about
+                        theoretical computer science and the world of algorithms. I sometimes dwell in the realm of
+                        machine learning also.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Datastructures & Algorithms</span><br>Design and analysis of efficient algorithms
+                            </li>
+                            <li><span>Deep Learning</span><br>Neural networks and linear algebra</li>
+                            <li><span>Web Development</span><br>Building interactive and responsive websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='education'>
+                        <ul>
+                            <li><span>2008-2018</span><br>St. Michaels High School Patna - Std Xth (97.4%)</li>
+                            <li><span>2018-2020</span><br>Vidya Sanskar School Patna - Std XIIth (95.8%)</li>
+                            <li><span>2021-present</span><br>BTech in Computer Science and Engineering at IIT Mandi
+                                (CGPA: 8.59)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='certifications'>
+                        <ul>
+                            <li><span>Deep Learning Specialization Coursera</span><br>Introduction to Neural
+                                Networks<br>
+                                Hyperparameter Tuning and optimization<br>Structuring Machine Learning
+                                Projects<br>Convolutional Neural Networks</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="hobbies">
+        <div class="container">
+            <h1 class="subtitle">My Hobbies & interests</h1>
+            <div class="hobbies-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Poetry & Literature</h2>
+                    <p>I love reading poetry and prose in both hindi and english languages.</p>
+                    <a href="#">Explore</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Coding</h2>
+                    <p>Taking part in contests and solving DSA problems is also a stress reliever for me.</p>
+                    <a href="#">Explore</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-couch"></i>
+                    <h2>Movies & F1 racing</h2>
+                    <p>I love watching movies, not just for the entertainment value but also to grasp the message. F1
+                        racing is thrilling to watch and I love it for its extreme nature and the brutal
+                        competitiveness.</p>
+                    <a href="#">Explore</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/cnn.jpg">
+                    <div class="layer">
+                        <h3>American sign language detection</h3>
+                        <p>This model uses Convolutional Neural Networks to correctly classify images of hand symbols
+                            into the corresponding english alphabet.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/YOO.webp">
+                    <div class="layer">
+                        <h3>YOLO object detection</h3>
+                        <p>This machine learning model employs YOLO architecture to detect railway sleepers which can be
+                            used for drone maneuvering.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weebb.png">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>A fully responsive and interactive website using just vanilla html, css and javascript.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>aayushanupam6@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6203074529</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/resume_Aayush Anupam.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
